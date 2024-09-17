@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  padding: 20px 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100dvh;
+}
+
+@keyframes long {
+  from {
+    font-size: 30rem;
+  }
+  to {
+    font-size: 40rem;
+  }
+}
+
+.love {
+  font-size: 30rem;
+  color: red;
+  animation-name: long;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
